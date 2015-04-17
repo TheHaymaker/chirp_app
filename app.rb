@@ -4,7 +4,7 @@ Bundler.require()
 ActiveRecord::Base.establish_connection(
 	:adapter => 'postgresql',
 	:database => 'chirp_app',
-	:host => 'localhost'
+	:host => '104.236.213.205'
 	)
 
 require './models/chirp'
